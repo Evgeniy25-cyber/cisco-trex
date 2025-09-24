@@ -34,6 +34,7 @@ apt install dpdk - hugepages.py
  скриптом dpdk-hugepages.py --setup 4G
  или командой
 echo 'vm.nr_hugepages = 2048' > /etc/sysctl.d/hugepages.conf
+===============================================================================================
 
 
 
